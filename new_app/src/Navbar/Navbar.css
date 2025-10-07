@@ -1,5 +1,7 @@
 nav{
-    background-color: aquamarine;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: lightsalmon;
 }
