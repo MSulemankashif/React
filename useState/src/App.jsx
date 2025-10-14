@@ -4,14 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import CounterExample from './Components/CounterExample'
 import PasswordExample from './Components/PasswordExample'
+import BoxExample from './Components/BoxExample'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     
-      <PasswordExample />
+      <BoxExample />     
     </>
   )
 }
