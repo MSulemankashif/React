@@ -26,6 +26,16 @@ function weatherApp() {
             <input type="text" name='' placeholder='Search City' value={city} onChange={(input) => {setcity(input.target.value)}}/>
             <button onClick={()=> {setSearch(city)}}>Search</button>
           </div>
+
+          {
+            data == null
+            ? <div><p>Loading...</p></div> : 
+            <div className="weather-stats">
+              <h1>{data.name}, {data.sys.country}</h1>
+
+              <img src="https://openweathermap.org/img/w/10d@2x.png" alt="icon" />
+            </div>
+          }
         </div>
       </div>
     </>
