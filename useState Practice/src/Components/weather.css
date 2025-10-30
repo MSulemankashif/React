@@ -1,0 +1,15 @@
+.weather-container{
+    padding: 20px;
+    border: 2px solid;
+    height: 500px;
+}
+#text{
+    width: 300px;
+}
+button{
+    padding: 15px !important;
+    width: 90px;
+}
+h1{
+    
+}

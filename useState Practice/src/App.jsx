@@ -4,13 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ControlledExample from './Components/ControlledExample'
 import Counter from './Components/Counter'
-
+import WeatherApp from './Components/weatherApp'
 function App() {
 
   return (
-    <>
-      <Counter/>
-    </>
+      <WeatherApp/>
   )
 }
 
